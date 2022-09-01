@@ -1,0 +1,30 @@
+:root{
+  --accent : tomato;
+}
+
+@media (prefers-color-scheme: light) {
+  :root{
+    --body-bg-color: #fff;
+    --box-bg-color: #e6e6e6;
+    --btn-bg-color: #c8c8c8;
+  
+    --primary-text-color: #000;
+    --secondary-text-color: #727272;
+  
+    --border-color: #ccc;
+  
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg-color: #0d1117;
+    --box-bg-color: #161b22;
+    --btn-bg-color: #21262d;
+  
+    --primary-text-color: #fff;
+    --secondary-text-color: #7a828b;
+  
+    --border-color: #30363d;
+  }
+}
