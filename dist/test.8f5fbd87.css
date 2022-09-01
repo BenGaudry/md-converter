@@ -193,10 +193,6 @@ a {
   font-weight: 300;
 }
 
-#renderer .renderer-line {
-  width: 100%;
-}
-
 #renderer .separating-line {
   width: 90%;
   height: 1px solid var(--border-color);
